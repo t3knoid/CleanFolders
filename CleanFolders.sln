@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanFolders", "CleanFolders\CleanFolders.csproj", "{CCB2C447-A22A-444B-BD2B-20C2B99CEFCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanFoldersService", "FolderCleaner\CleanFoldersService.csproj", "{5894E99D-2E32-437A-9932-C6692735528E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CCB2C447-A22A-444B-BD2B-20C2B99CEFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCB2C447-A22A-444B-BD2B-20C2B99CEFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCB2C447-A22A-444B-BD2B-20C2B99CEFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5894E99D-2E32-437A-9932-C6692735528E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5894E99D-2E32-437A-9932-C6692735528E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5894E99D-2E32-437A-9932-C6692735528E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5894E99D-2E32-437A-9932-C6692735528E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

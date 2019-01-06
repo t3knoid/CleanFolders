@@ -117,32 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="folder_delete128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folder_delete128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="folder_delete64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folder_delete64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon_main" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folder_delete.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="String_btAdd_Text" xml:space="preserve">
-    <value>&amp;Add...</value>
-  </data>
-  <data name="String_btCancel_Text" xml:space="preserve">
-    <value>&amp;Cancel</value>
-  </data>
-  <data name="String_btOK_Text" xml:space="preserve">
-    <value>O&amp;K</value>
-  </data>
-  <data name="String_btRemove_Text" xml:space="preserve">
-    <value>&amp;Remove</value>
-  </data>
-  <data name="String_folderBrowserDialog1_Description" xml:space="preserve">
-    <value>Select a folder to clean up</value>
-  </data>
-  <data name="String_rtDescription_Text" xml:space="preserve">
+  <data name="rtDescription.Text" xml:space="preserve">
     <value>The following is a list of folders to watch and clean. Select the Add button to browse and add a folder in the list. Remove a folder from the list by selecting the folder and clicking on the Remove button.</value>
   </data>
+  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

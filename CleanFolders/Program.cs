@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Logger = Utilities.Logger;
 
 namespace CleanFolders
 {
@@ -14,9 +15,13 @@ namespace CleanFolders
         [STAThread]
         static void Main()
         {
+            Logger logger = new Logger(System.IO.Path.GetTempFileName())
+            {
+                LogLevel = Logger.Levels.INFO,
+            };
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form1() { Logger = logger });
         }
     }
 }
